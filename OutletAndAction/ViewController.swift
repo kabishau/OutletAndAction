@@ -1,25 +1,11 @@
-//
-//  ViewController.swift
-//  OutletAndAction
-//
-//  Created by user131656 on 2/27/18.
-//  Copyright © 2018 user131656. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func changeTextInLabel(_ sender: UIButton) {
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
