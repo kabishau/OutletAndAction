@@ -39,6 +39,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="miN-Z4-COs" id="xqt-5s-VUW"/>
+                        <outletCollection property="labelCollection" destination="miN-Z4-COs" collectionClass="NSMutableArray" id="FHj-ZI-z5P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
